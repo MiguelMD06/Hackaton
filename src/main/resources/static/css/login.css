@@ -1,0 +1,72 @@
+
+    body {
+        background: linear-gradient(to bottom, #8b1b1b 20%, #e6d9a4 80%);
+        min-height: 100vh;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #4a1c1a;
+    }
+
+    h3 {
+        color: #f4e8c1;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-header {
+        background-color: #8b1b1b !important;
+        color: #f4e8c1;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        padding: 15px;
+    }
+
+    label {
+        font-weight: 600;
+        color: #5a2222;
+        text-align: left;
+        display: block;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        border: none;
+        border-bottom: 2px solid #8b1b1b;
+        border-radius: 0;
+        width: 100%;
+        padding: 8px;
+        background-color: transparent;
+        margin-bottom: 15px;
+        transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        outline: none;
+        border-color: #a92323;
+    }
+
+    .btn-primary {
+        background-color: #8b1b1b !important;
+        border: none;
+        color: #f4e8c1;
+        padding: 10px;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #a92323 !important;
+    }
+
+    .alert-danger {
+        background-color: #e6d9a4;
+        color: #8b1b1b;
+        border: 1px solid #8b1b1b;
+    }
