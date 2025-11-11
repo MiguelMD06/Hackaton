@@ -1,5 +1,6 @@
 Pasos para ejecutar backend
 Abrir la aplicación de eclipse y dirigirnos hacia el proyecto, dar clic derecho para desplegar ventana donde encontraremos el “Run as” y elegimos “Spring Boot App”.
+O podrías conectarte a la red de USCO Central Plus y colocar esta dirección en la url de tu navegador: 192.168.220.223:8080 y podrás usar el proyecto.
  
 Pasos para ejecutar frontend
 En nuestro explorador vamos a buscar “localhost:8080/” el cual nos va a desplegar el proyecto, a partir de ahí empezamos a utilizar la página.
